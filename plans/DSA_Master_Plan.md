@@ -155,7 +155,7 @@ The input size `N` in the constraints tells you the **expected time complexity**
 ---
 
 #### Pattern 4: Prefix Sum
-- [ ] **Status:** Not started
+- [/] **Status:** In progress
 - **Estimated Time:** 1 day
 - **Core Concept:** Precompute cumulative sums to answer range-sum queries in O(1). Often combined with hash maps.
 - **Triggers:** "Sum of subarray equals K," "range sum query," "equilibrium index"
@@ -163,9 +163,9 @@ The input size `N` in the constraints tells you the **expected time complexity**
 
 | # | Problem | Difficulty | LeetCode # | Status |
 |---|---------|-----------|------------|--------|
-| 1 | Running Sum of 1d Array | Easy | 1480 | [ ] |
+| 1 | Running Sum of 1d Array | Easy | 1480 | [x] |
 | 2 | Find Pivot Index | Easy | 724 | [ ] |
-| 3 | Subarray Sum Equals K | Medium | 560 | [ ] |
+| 3 | Subarray Sum Equals K | Medium | 560 | [x] |
 | 4 | Contiguous Array | Medium | 525 | [ ] |
 
 ---

@@ -42,3 +42,12 @@
 - **Hints Used:** LC 3 (Tier 1 - Time complexity check / string slicing)
 - **Key Takeaway:** In a dynamic sliding window, use a `set` to achieve $O(1)$ lookups. The `right` pointer aggressively explores, and the `left` pointer defensively shrinks the window inside a `while` loop whenever a duplicate is found.
 - **Notes Generated:** [Pattern 03 Note](file:///d:/sourav/code/DSA/notes/patterns/03_sliding_window.md), [LC 121 Note](file:///d:/sourav/code/DSA/notes/problems/LC_121_best_time_to_buy_and_sell_stock.md), [LC 3 Note](file:///d:/sourav/code/DSA/notes/problems/LC_003_longest_substring_without_repeating_characters.md)
+
+### Session 4 — 2026-09-01
+- **Pattern:** Prefix Sum
+- **Step Completed:** A (Theory), B (Boilerplate), C (Walkthrough), D (Medium Practice)
+- **Problems Attempted:** LC 1480 (Running Sum of 1d Array), LC 560 (Subarray Sum Equals K)
+- **Problems Solved Independently:** LC 1480 (Conceptually), LC 560 (Independently, with feedback on frequency tracking)
+- **Hints Used:** LC 560 (Tier 1 - Frequency logic bug with `[0, 0, 0]`)
+- **Key Takeaway:** Prefix sums allow $O(1)$ range queries. For "Target Sum" problems, track the *frequency* of past prefix sums in a Hash Map so you can count all valid starting points.
+- **Notes Generated:** [Pattern 04 Note](file:///d:/sourav/code/DSA/notes/patterns/04_prefix_sum.md), [LC 1480 Note](file:///d:/sourav/code/DSA/notes/problems/LC_1480_running_sum_of_1d_array.md), [LC 560 Note](file:///d:/sourav/code/DSA/notes/problems/LC_0560_subarray_sum_equals_k.md)
